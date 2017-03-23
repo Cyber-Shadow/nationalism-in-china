@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    font-family: "Source Sans Pro";
+}
+
+h2 {
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#header {
+    display: inline;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    z-index: 9;
+    top: 0px;
+    background-color: rgb (0,0,0,0);
+}
+
+#header button {
+    border: none;
+    background: transparent;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#notside {
+    transition: margin-left .5s;
+}
+
+#text {
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,155,.5);
+    height: 640px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -40%;
+    transform: translate(-50%, -50%);
+}
+
+.section {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+
+/* Slide specific stuff */
+
+#sapling {
+    background: url("/static/webapp/img/sapling.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ricky2 {
+    background: url("/static/webapp/img/sapling2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gordon {
+    background: url("/static/webapp/img/gordon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hanyuan {
+    background: url("/static/webapp/img/qing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hanyuan2 {
+    background: url("/static/webapp/img/civil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#charles {
+    background: url("/static/webapp/img/charles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#craig {
+    background: url("/static/webapp/img/craig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#topic {
+    background: url("/static/webapp/img/topic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#topic h2 {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255,255,255);
+    font-size: 80px;
+
+}
+
+#bibliography {
+    background: url("/static/webapp/img/bib.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bibliography2 {
+    background: url("/static/webapp/img/bib2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bibliography3 {
+    background: url("/static/webapp/img/bib3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
