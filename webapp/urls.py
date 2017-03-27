@@ -19,6 +19,6 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^hanyuan/$', views.hanyuan),
+    #url(r'^hanyuan/$', views.hanyuan),
     url(r'^$', views.home),
 ]
